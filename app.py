@@ -2,15 +2,13 @@ import config
 import requests
 import tkinter as tk
 
-# Create a variable for you api key inside the config file or here
-
 
 def get_input():
 	# City and Weather Data
 	print()
 	city_input = input("Enter city: ")
 	print("=========================================================================================================")
-
+	# Create a variable for you api key inside the config file or here
 	location_data = requests.get(
 		f"http://api.openweathermap.org/geo/1.0/direct?q={city_input}&limit=5&appid={config.api_key}"
 	)
