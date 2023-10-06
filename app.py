@@ -2,6 +2,8 @@ import config
 import requests
 import tkinter as tk
 
+# Create a variable for you api key inside the config file or here
+
 
 def get_input():
 	# City and Weather Data
