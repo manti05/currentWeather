@@ -75,7 +75,6 @@ The list isn't displayed again until the "Go Back" button is clicked, this poses
 Before inputting a new city, please click the "Go Back" button to see the updated list of countries.
 
 ## Author
-
-[Mantas Stankevicius]
+Mantas Stankevicius
 
 For questions or assistance, please contact [mantas@mantascodes.com].
