@@ -77,4 +77,4 @@ Before inputting a new city, please click the "Go Back" button to see the update
 ## Author
 Mantas Stankevicius
 
-For questions or assistance, please contact [mantas@mantascodes.com].
+For questions or assistance, please contact mantas@mantascodes.com.
