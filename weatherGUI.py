@@ -89,6 +89,7 @@ def on_country_select(event):
             if not found_location:
                 country_label.config(text="Invalid city")
                 selected_country.set("")  # Clear the selected country if the city is invalid
+    replace_listbox_with_button()
 
 
 # Function to get the state code (if available) based on city, state, and country
@@ -128,6 +129,7 @@ def update_weather_label(lat, lon):
 
 # Function to go back to the country list after selecting a country
 def go_back_to_list():
+    selected_country.set("")  # Clear the selected country
     go_back_button.pack_forget()  # Remove the "Go Back" button
     country_listbox.pack()  # Add the listbox back
     update_country_list(city_entry.get())  # Re-populate the listbox
